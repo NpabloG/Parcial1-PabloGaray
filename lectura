@@ -1,0 +1,16 @@
+package com.pabloParcial1;
+
+import  java.util.Scanner;
+
+public class lectura {
+
+    public lectura(){
+
+    }
+
+    public int lecturaEntero(){
+        Scanner leer = new Scanner(System.in);
+        return leer.nextInt();
+    }
+
+}
